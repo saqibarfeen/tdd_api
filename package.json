@@ -1,0 +1,14 @@
+{
+	"name": "todo",
+	"author": "saqib",
+	"description": "ttodo api dor ai axiom",
+	"main": "server.js",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "*",
+		"mongoose": "*",
+		"morgan": "*",
+		"body-parser": "*",
+		"method-override": "*"
+	}
+}
