@@ -118,5 +118,6 @@ app.get('*',function(req,res){
 
 
 //start
-app.listen(8000);
+let port = process.env.PORT || process.argv[2] || 8080;
+app.listen(port);
 console.log("I am up on 8000");
